@@ -22,7 +22,8 @@ header > a {
     text-decoration: none;
     color: black;
     font-weight: 900;
-    font-size: 13px;
+    font-size: 15px;
+    transition: width 2s;
 }
 
 .imagen {
@@ -44,9 +45,9 @@ img {
     font-size: 22px;
     justify-content: center;
     text-align: left;
-    padding: 22px 140px 22px 10px;
+    padding: 25px 140px 25px 10px;
     right: 50%;
-    top: 17%;
+    top: 18%;
     z-index: -1;
 }
 
@@ -54,7 +55,6 @@ img {
     text-align: center;
     padding: 0px 20px 0px 30px;
     font-size: 25px;
-    
 }
 
 .caja2 {
@@ -65,12 +65,12 @@ img {
     color: white;
     right: 50%;
     left: 0%;
-    top: 44%;
+    top: 42%;
     z-index: -1;
-    padding: 14px 30px 14px 200px;
+    padding: 16px 30px 16px 200px;
     justify-content: center; 
     font-weight: 350;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .caja3 {
@@ -82,18 +82,16 @@ img {
     color: #e9e7da;
     right: 0%;
     left: 44%;
-    top: 44%;
+    top: 42%;
     z-index: -1;
-
 } 
 
 .caja3 > p {
     width: 100%;
     padding: 0px;
-    font-size: 45px ; 
-    line-height: 80%;
+    font-size: 55px ; 
+    line-height: 81%;
     letter-spacing: 6px;
-    
 }
 
 .subcaja3 {
@@ -104,7 +102,7 @@ img {
     font-size: 19px;
     color: #393e44;
     right: 0%;
-    left: 44%;
+    left: 51%;
     top: 44%;
 }
 
@@ -119,7 +117,7 @@ img {
     font-size: 24px;
     color: #e9e7da;
     right:25%;
-    top: 65%;
+    top: 67%;
     z-index: -1;
 }
 
@@ -139,11 +137,10 @@ img {
 .partebaja {
     display: flex;
     justify-content: space-around;
-    margin: 30px 30px;
+    margin: 30px 50px 50px 50px;
     text-align: end;
     bottom: 0px;
     width: 95%;
-    margin-bottom: 55px;
     position: absolute;
 }
 
@@ -152,8 +149,6 @@ img {
     color: #393e44;
     font-family: 'Comfortaa', cursive;
     font-weight: 600;
-
-
 }
 
 .numero1, .icono3 {
